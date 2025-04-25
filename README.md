@@ -67,4 +67,5 @@ O buzzer é ativado por 3 segundos, depois desativado por 3 segundos, em um cicl
 - [Eduarda de Castro Coutinho dos Santos](https://github.com/DudaFror)
 - [Lucas dos Reis Aquino](https://github.com/LucassAquino)
 - [Lucas Perez Bonato](https://github.com/LucasBonato)
+- [Leandro Simoneli](https://github.com/Leo010906)
 
