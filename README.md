@@ -63,9 +63,9 @@ O buzzer é ativado por 3 segundos, depois desativado por 3 segundos, em um cicl
 
 ## Desenvolvedores do projeto :busts_in_silhouette:
 
-- [Diogo Oliveira Lima](https://github.com/oliveiralimadiogo)
-- [Eduarda de Castro Coutinho dos Santos](https://github.com/DudaFror)
-- [Lucas dos Reis Aquino](https://github.com/LucassAquino)
-- [Lucas Perez Bonato](https://github.com/LucasBonato)
-- [Leandro Simoneli](https://github.com/Leo010906)
+- [Diogo Oliveira Lima | RM: 562559](https://github.com/oliveiralimadiogo)
+- [Eduarda de Castro Coutinho dos Santos | RM: 562184](https://github.com/DudaFror)
+- [Lucas dos Reis Aquino | RM: 562414 ](https://github.com/LucassAquino)
+- [Lucas Perez Bonato | RM: 565356](https://github.com/LucasBonato)
+- [Leandro Simoneli | RM: 566539](https://github.com/Leo010906)
 
