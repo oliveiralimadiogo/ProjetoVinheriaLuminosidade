@@ -20,7 +20,7 @@ Quando em alerta, um buzzer toca por 3 segundos, repete o aviso se o nível se m
 
 1x Sensor LDR
 
-1x Resistor 10kΩ (divisor de tensão para o LDR)
+1x Resistor 1kΩ (divisor de tensão para o LDR)
 
 3x LEDs (verde, amarelo e vermelho)
 
@@ -41,6 +41,10 @@ Conecte os LEDs nos pinos 2 (verde), 3 (amarelo) e 4 (vermelho).
 Conecte o buzzer no pino 5.
 
 Use resistores adequados para proteger os LEDs.
+
+## 🕹️ TinkerCad
+
+- [Projeto](https://www.tinkercad.com/things/iryyTOm2NdR-checkpoint-edge/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=YwfjBHHS2fJPUteCx_2BqlvWlVWSF4Dw36xt0A6M0LY)
 
 ## 💻 Upload do código:
 Abra o Arduino IDE;
