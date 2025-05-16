@@ -1,17 +1,31 @@
 # 🍷 Sistema de Monitoramento de Luminosidade – Vinheria Agnello
 ## 📋 Descrição do Projeto
+
 O objetivo é desenvolver um sistema de monitoramento para o ambiente de armazenamento dos vinhos. Segundo o proprietário da vinheria, a qualidade do vinho é fortemente impactada por fatores como temperatura, umidade e luminosidade, sendo fundamental manter essas condições sob controle
 
 ## 🎯 Objetivos
-Medir a intensidade da luz ambiente com sensor LDR.
+Medir a intensidade da luz ambiente com sensor LDR, Medir a temperatura e a umidade do ambiente e mostrar essas informações em um display.
 
-Sinalizar a situação com LEDs:
+Cores do led acessas:
 
-🟢 Verde: ambiente ideal (escuro);
+🟢 Verde: 
+ambiente ideal (escuro)
+10Cº < temperatura < 15Cº Display("Temperatura OK" + temperatura)
+50% < umidade < 70% Display("Umidade OK" + umidade)
 
-🟡 Amarelo: nível de alerta (meia-luz);
 
-🔴 Vermelho: nível crítico (muita luz).
+🟡 Amarelo: 
+nível de alerta (meia-luz); Display(“Ambiente a meia luz” deve ser mostrado no Display;)
+Temperatura < 10Cº Display("Temp. Baixa" + Valor Temperatura) e buzzer ativo
+Temperatura > 15Cº Display("Temp. Alta" + Valor Temperatura) e buzzer ativo
+
+
+🔴 Vermelho: 
+nível crítico (muita luz); Display(“Ambiente muito claro” deve ser mostrado no display) Buzzer ativo
+umidade < 50% Display("Umidade Baixa" + umidade) e buzzer ativo
+umidade > 70% Display("Umidade Alta" + umidade) e buzzer ativo
+
+
 
 Quando em alerta, um buzzer toca por 3 segundos, repete o aviso se o nível se mantiver.
 
@@ -28,19 +42,11 @@ Quando em alerta, um buzzer toca por 3 segundos, repete o aviso se o nível se m
 
 1x Buzzer
 
+1X Sensor DHT11
+
+1X Display LCD
+
 Protoboard e jumpers
-
-## 🛠️ Como Reproduzir
-✅ Montagem do circuito:
-Monte o LDR com resistor de 10kΩ formando um divisor de tensão:
-
-Um lado do LDR no 5V, outro lado no pino A0 e ligado ao resistor de 10kΩ que vai para o GND.
-
-Conecte os LEDs nos pinos 2 (verde), 3 (amarelo) e 4 (vermelho).
-
-Conecte o buzzer no pino 5.
-
-Use resistores adequados para proteger os LEDs.
 
 ## 🕹️ TinkerCad
 
@@ -56,10 +62,7 @@ Selecione a placa e porta corretas;
 Faça o upload para o Arduino.
 
 ## 🧪 Teste:
-Varie a luz incidente sobre o LDR e observe a mudança de LEDs e o acionamento do buzzer.
-
-## ⏱ Lógica com millis() (sem delay)
-O buzzer é ativado por 3 segundos, depois desativado por 3 segundos, em um ciclo contínuo enquanto o ambiente estiver em nível de alerta. Isso é feito usando a função millis(), que permite controle de tempo sem travar o loop principal, diferente do delay().
+Varie a luz incidente sobre o LDR e observe a mudança de LEDs e o acionamento do buzzer. Varie a temperatura e a umidade do ambiente.
 
 ## Desenvolvedores do projeto :busts_in_silhouette:
 
