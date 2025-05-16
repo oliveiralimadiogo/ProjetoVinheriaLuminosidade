@@ -9,21 +9,21 @@ Medir a intensidade da luz ambiente com sensor LDR, Medir a temperatura e a umid
 Cores do led acessas:
 
 🟢 Verde: 
-ambiente ideal (escuro)
-10Cº < temperatura < 15Cº Display("Temperatura OK" + temperatura)
-50% < umidade < 70% Display("Umidade OK" + umidade)
+ambiente ideal (escuro)  
+10Cº < temperatura < 15Cº Display("Temperatura OK" + temperatura)  
+50% < umidade < 70% Display("Umidade OK" + umidade)  
 
 
 🟡 Amarelo: 
-nível de alerta (meia-luz); Display(“Ambiente a meia luz” deve ser mostrado no Display;)
-Temperatura < 10Cº Display("Temp. Baixa" + Valor Temperatura) e buzzer ativo
-Temperatura > 15Cº Display("Temp. Alta" + Valor Temperatura) e buzzer ativo
+nível de alerta (meia-luz); Display(“Ambiente a meia luz” deve ser mostrado no Display;)  
+Temperatura < 10Cº Display("Temp. Baixa" + Valor Temperatura) e buzzer ativo  
+Temperatura > 15Cº Display("Temp. Alta" + Valor Temperatura) e buzzer ativo  
 
 
 🔴 Vermelho: 
-nível crítico (muita luz); Display(“Ambiente muito claro” deve ser mostrado no display) Buzzer ativo
-umidade < 50% Display("Umidade Baixa" + umidade) e buzzer ativo
-umidade > 70% Display("Umidade Alta" + umidade) e buzzer ativo
+nível crítico (muita luz); Display(“Ambiente muito claro” deve ser mostrado no display) Buzzer ativo  
+umidade < 50% Display("Umidade Baixa" + umidade) e buzzer ativo  
+umidade > 70% Display("Umidade Alta" + umidade) e buzzer ativo  
 
 
 
@@ -62,7 +62,8 @@ Selecione a placa e porta corretas;
 Faça o upload para o Arduino.
 
 ## 🧪 Teste:
-Varie a luz incidente sobre o LDR e observe a mudança de LEDs e o acionamento do buzzer. Varie a temperatura e a umidade do ambiente.
+Varie a luz incidente sobre o LDR e observe a mudança de LEDs e o acionamento do buzzer.  
+Varie a temperatura e a umidade do ambiente.
 
 ## Desenvolvedores do projeto :busts_in_silhouette:
 
