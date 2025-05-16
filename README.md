@@ -9,21 +9,21 @@ Medir a intensidade da luz ambiente com sensor LDR, Medir a temperatura e a umid
 Cores do led acessas:
 
 🟢 Verde: 
-ambiente ideal (escuro)  
-10Cº < temperatura < 15Cº Display("Temperatura OK" + temperatura)  
-50% < umidade < 70% Display("Umidade OK" + umidade)  
+ - Ambiente ideal (escuro)  
+ - 10Cº < temperatura < 15Cº Display("Temperatura OK" + temperatura)  
+ - 50% < umidade < 70% Display("Umidade OK" + umidade)  
 
 
 🟡 Amarelo: 
-nível de alerta (meia-luz); Display(“Ambiente a meia luz” deve ser mostrado no Display;)  
-Temperatura < 10Cº Display("Temp. Baixa" + Valor Temperatura) e buzzer ativo  
-Temperatura > 15Cº Display("Temp. Alta" + Valor Temperatura) e buzzer ativo  
+ - Nível de alerta (meia-luz); Display(“Ambiente a meia luz” deve ser mostrado no Display;)  
+ - Temperatura < 10Cº Display("Temp. Baixa" + Valor Temperatura) e buzzer ativo  
+ - Temperatura > 15Cº Display("Temp. Alta" + Valor Temperatura) e buzzer ativo  
 
 
 🔴 Vermelho: 
-nível crítico (muita luz); Display(“Ambiente muito claro” deve ser mostrado no display) Buzzer ativo  
-umidade < 50% Display("Umidade Baixa" + umidade) e buzzer ativo  
-umidade > 70% Display("Umidade Alta" + umidade) e buzzer ativo  
+ - Nível crítico (muita luz); Display(“Ambiente muito claro” deve ser mostrado no display) Buzzer ativo  
+ - Umidade < 50% Display("Umidade Baixa" + umidade) e buzzer ativo  
+ - Umidade > 70% Display("Umidade Alta" + umidade) e buzzer ativo  
 
 
 
